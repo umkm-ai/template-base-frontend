@@ -1,0 +1,20 @@
+{
+  "slug": "base-frontend",
+  "name": "Base Frontend",
+  "category": "base_frontend",
+  "surfaces": ["client"],
+  "framework": { "client": "vite_react" },
+  "engine": "bun",
+  "requiresDb": false,
+  "version": "1.0.0",
+  "repo": "https://github.com/umkm-ai/template-base-frontend",
+  "config": [
+    { "key": "appName", "label": "Nama aplikasi", "type": "string", "required": true }
+  ],
+  "env": [],
+  "scripts": {
+    "install": "bun install",
+    "dev": "vite",
+    "build": "tsc -b && vite build"
+  }
+}
